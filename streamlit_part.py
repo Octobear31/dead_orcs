@@ -9,7 +9,7 @@ from PIL import Image
 
 
 st.set_page_config(
-    page_title = 'Втрати жокупанта',
+    page_title = 'Втрати окупанта',
     layout = 'wide'
 )
 
@@ -123,13 +123,13 @@ elif stats_data[x-2]['data']['date'] == '2022-02-27':
         st.metric(label = '💩 Танків:', value = tanks, delta = tanks_delta)
     with armoured_fighting_vehicles_col:
         # st.image('icon-bbm.svg', width = 50)
-        st.metric(label = '🚜 ББМ::', value = armoured_fighting_vehicles, delta = armoured_fighting_vehicles_delta)
+        st.metric(label = '🚜 ББМ:', value = armoured_fighting_vehicles, delta = armoured_fighting_vehicles_delta)
     with artillery_systems_col:
         # st.image('icon-art.svg', width = 50)
         st.metric(label = '☄️ Арт. систем:', value = artillery_systems, delta = artillery_systems_delta)
     with mlrs_col:
         # st.image('icon-rszv.svg', width = 50)
-        st.metric(label = '🚀 РСЗВ::', value = mlrs, delta = mlrs_delta)
+        st.metric(label = '🚀 РСЗВ:', value = mlrs, delta = mlrs_delta)
     with aa_warfare_systems_col:
         # st.image('icon-ppo.svg', width = 50)
         st.metric(label = '🛰 Засобів ППО:', value = aa_warfare_systems, delta = aa_warfare_systems_delta)
@@ -188,13 +188,13 @@ elif stats_data[x-2]['data']['date'] == '2022-02-25':
         st.metric(label = '💩 Танків:', value = tanks)
     with armoured_fighting_vehicles_col:
         # st.image('icon-bbm.svg', width = 50)
-        st.metric(label = '🚜 ББМ::', value = armoured_fighting_vehicles)
+        st.metric(label = '🚜 ББМ:', value = armoured_fighting_vehicles)
     with artillery_systems_col:
         # st.image('icon-art.svg', width = 50)
         st.metric(label = '☄️ Арт. систем:', value = artillery_systems)
     with mlrs_col:
         # st.image('icon-rszv.svg', width = 50)
-        st.metric(label = '🚀 РСЗВ::', value = mlrs)
+        st.metric(label = '🚀 РСЗВ:', value = mlrs)
     with aa_warfare_systems_col:
         # st.image('icon-ppo.svg', width = 50)
         st.metric(label = '🛰 Засобів ППО:', value = aa_warfare_systems)
@@ -280,13 +280,13 @@ else:
         st.metric(label = '💩 Танків:', value = tanks, delta = tanks_delta)
     with armoured_fighting_vehicles_col:
         # st.image('icon-bbm.svg', width = 50)
-        st.metric(label = '🚜 ББМ::', value = armoured_fighting_vehicles, delta = armoured_fighting_vehicles_delta)
+        st.metric(label = '🚜 ББМ:', value = armoured_fighting_vehicles, delta = armoured_fighting_vehicles_delta)
     with artillery_systems_col:
         # st.image('icon-art.svg', width = 50)
         st.metric(label = '☄️ Арт. систем:', value = artillery_systems, delta = artillery_systems_delta)
     with mlrs_col:
         # st.image('icon-rszv.svg', width = 50)
-        st.metric(label = '🚀 РСЗВ::', value = mlrs, delta = mlrs_delta)
+        st.metric(label = '🚀 РСЗВ:', value = mlrs, delta = mlrs_delta)
     with aa_warfare_systems_col:
         # st.image('icon-ppo.svg', width = 50)
         st.metric(label = '🛰 Засобів ППО:', value = aa_warfare_systems, delta = aa_warfare_systems_delta)
