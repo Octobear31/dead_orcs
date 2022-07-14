@@ -9,7 +9,7 @@ from PIL import Image
 
 
 st.set_page_config(
-    page_title = 'Втрати окупанта',
+    page_title = 'Втрати жокупанта',
     layout = 'wide'
 )
 
